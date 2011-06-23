@@ -7,7 +7,7 @@ standard_header("Downloading Software");
 <ol>
 <li><a href="#od">Open Dylan</a></li>
 <li><a href="#gd">Gwydion Dylan</a></li>
-<li><a href="#svn">Subversion Repository</a></li>
+<li><a href="#git">Git Repository</a></li>
 <li><a href="/downloads/">Browse Download Directory</a></li>
 </ol>
 
@@ -125,38 +125,21 @@ with Microsoft Visual C++, or alternatively with gcc under Cygwin. Cygwin
 build directions are <A HREF="building-win32-cygwin.phtml">here</A>.
 
 
-<a name="svn"></a>
-<H2>Subversion Source Repository</H2>
+<a name="git"></a>
+<H2>Git Source Repository</H2>
 
-<P><A HREF="cgi-bin/viewcvs.cgi">Browse our Subversion source tree.</A> You can
-also access the Subversion server directly, by checking out subdirectories of
-<tt>svn://anonsvn.gwydiondylan.org/scm/svn/dylan</tt>.
-</p>
+<P><A HREF="https://github.com/dylan-lang/">Browse our source tree on github.</A></p>
 
 <dl>
-<dt>Gwydion Dylan trunk</dt>
-<dd><tt>svn://anonsvn.gwydiondylan.org/scm/svn/dylan/trunk/gwydion</tt></dd>
+<dt>Gwydion Dylan</dt>
+<dd><tt>git://github.com/dylan-lang/gwydion.git</tt></dd>
 <dt>Gwydion Dylan 2.4 branch (latest stable version)</dt>
-<dd><tt>svn://anonsvn.gwydiondylan.org/scm/svn/dylan/branches/GD_2_4/gwydion</tt></dd>
-<dt>Open Dylan trunk</dt>
-<dd><tt>svn://anonsvn.gwydiondylan.org/scm/svn/dylan/trunk/fundev</tt></dd>
+<dd><tt>git://github.com/dylan-lang/GD_2_4.git</tt></dd>
+<dt>Open Dylan</dt>
+<dd><tt>git://github.com/dylan-lang/opendylan.git</tt></dd>
 </dl>
 
-<p>We generally recommend that people start from the most recent tagged version
-under
-
-<pre>
-svn://anonsvn.gwydiondylan.org/scm/svn/dylan/tags
-</pre>
-
-which is currently <?php current_version();?>.  If that works for
-you (or you're the type that doesn't read manuals before turning on
-your new VCR) then you can try the stable branch or even the trunk
-version.  We actually try pretty hard to make sure the trunk version
-always works, but there are certainly even fewer guarantees with it
-than usual.</p>
-
-<p>Instructions on Subversion use for developers can be found <a
+<p>Instructions on git use for developers can be found <a
 href="repository.phtml">here</a>.</p>
 
 <?php standard_footer(); ?>
