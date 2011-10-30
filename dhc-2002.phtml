@@ -21,7 +21,7 @@ following issues came up:
 - We need more libraries to attract people
 - Some day, we want to have a native backend
 - There's a lot of good code (DUIM, deuce) which we need to make work
-- The decriptor_t representation makes multi-threading impossible
+- The descriptor_t representation makes multi-threading impossible
 - Some day, we want to have our own, non-conservative GC
 - We want an interactive compiler
 - We want procedural macros
@@ -44,7 +44,7 @@ evaluated expression: {literal extended-integer 120}
 
 Access to non-local bindings doesn't work.  Defining functions,
 classes and methods doesn't work.  Lots of the primitives are
-unimplemented.  Every assigment makes the environment grow, as does
+unimplemented.  Every assignment makes the environment grow, as does
 any iteration through a loop.  But we're already much better than the
 built-in constant folding, which doesn't even know how to calculate 
 "2 + 3 + 4".
