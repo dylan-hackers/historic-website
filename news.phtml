@@ -4,6 +4,281 @@ standard_header("What Was New");
 ?>
 
 <DL>
+<DT><STRONG>Open Dylan 1.0 beta 5 available (2008-12-01 19:20:45)</STRONG></dt>
+<DD><P>A limited release of Open Dylan 1.0beta5 is available for <a href="http://www.opendylan.org/downloading.phtml">download</a> on x86/Linux and amd64/FreeBSD platforms.  We are seeking packagers for other platforms.  A full announcment will be made when it is available for Windows.  See <a href="http://wiki.opendylan.org/wiki/view.dsp?title=Open%20Dylan%201.0%20Beta%205">the 1.0beta5 wiki page</a> for a list of changes in this release.
+
+<DT><STRONG>Open Dylan 1.0 beta 4 released (2007-04-30 11:37:13)</STRONG></dt>
+<DD><P>Open Dylan 1.0 beta 4 was released today. It contains a lot of improvements, the full announcement is available <a href="http://www.opendylan.org/pipermail/gd-hackers/2007-April/005777.html">here</a>.
+
+<DT><STRONG>Dylan Hackers Conference Europe 2006 (2006-11-15 14:50:35)</STRONG></dt>
+<DD><P>Dear Dylan Hacker,
+
+the Dylan Hackers Conference Europe 2006 will be co-located with the <a href="http://events.ccc.de/congress/2006">23rd Chaos Communication Congress</a>. The full announcement is available <a href="http://events.ccc.de/congress/2006/Dylan_Hackers_Conference">here</a>.
+
+<DT><STRONG>Ethereal/Wireshark clone in Dylan (2006-11-08 14:46:03)</STRONG></dt>
+<DD><P>Hannes Mehnert and Andreas Bogk have written a proof of concept for a clone of the popular Ethereal/Wireshark network analysis tool, which is much like the original, just with much less features (this is going to change), and zero exploitable buffer overflows (this is going to stay). A paper describing the approach of building a domain specific language for network packets, as well as a build of the PoC application, is linked from <a href="http://www.andreas.org/blog/?p=288">here</a>.
+
+<DT><STRONG>New Wiki online (2006-05-30 21:43:02)</STRONG></dt>
+<DD><P><p>For quite some time, the Dylan community used a Wiki on sourceforge, as part of the Monday project by Peter Housel.  It accumulated some content over time, but also was subject to bit rot and is currently unavailable.</p>
+<p>As it happens, we were working on a Wiki written in Dylan. It is still in beta, but has by now reached a state where we can start using it. So we proudly present the new Dylan Language Wiki at <a href="http://wiki.opendylan.org/">http://wiki.opendylan.org/</a>. The contents is a translation from the Monday Wiki, and still needs a lot of manual cleanup. You're all invited to help improving it.</p>
+
+<DT><STRONG>OS X Intel build of Gwydion Dylan (2006-05-24 13:14:47)</STRONG></dt>
+<DD><P>Thanks to the efforts of new Dylan user Dwight Holman (with minimal hints from #dylan) we now offer an <a href="http://www.gwydiondylan.org/downloads/binaries/MacOSX-x86/10.4/tar/gwydion-dylan-2.4.1pre1-macosx-intel.tar.bz2">OS X for Intel port</a> of the Gwydion d2c compiler.
+<p>
+Install, as always for our tar files, by expanding into the root directory: <tt>cat gwydion-dylan-2.4.1pre1-macosx-intel.tar.bz2 | (cd /;sudo tar jxf -)</tt><p>
+Notes:<ul><li>if you download with Safari turn off "expand safe files" otherwise it does stupid things.  Better to use wget or curl.</li>
+<li>you need to add <tt>/usr/local/bin</tt> to your <tt>PATH</tt> if you haven't already for other programs.
+</ul>
+
+<DT><STRONG>Dylan mode for BBEdit (2006-03-19 22:19:44)</STRONG></dt>
+<DD><P>Thanks to Jay Lieske, there's a Dylan mode for BBEdit <a href="http://www.jlieske.com/code/dylan/">available</a> now.
+
+<DT><STRONG>FreeBSD port of Open Dylan underway (2006-02-13 12:10:44)</STRONG></dt>
+<DD><P>We've been working on a port of Open Dylan to FreeBSD. A preliminary snapshot of the compiler, plus the required patches to the source code, are available <a href="http://www.opendylan.org/~hannes/opendylan-freebsd">here</a>.
+
+<DT><STRONG>Cygwin Gwydion Dylan 2.4.1pre1 package (2005-10-16 04:18:49)</STRONG></dt>
+<DD><P>We now have a binary <a href="https://www.gwydiondylan.org/downloads/binaries/MS-Windows/cygwin/tar/gwydion-dylan-2.4.1pre1-x86-cygwin.tar.gz">
+tarball</a> for Gwydion 2.4.1 (pre1) for x86 Cygwin systems.  Now even
+Windows users have no excuse to avoid learning Dylan!
+
+<DT><STRONG>Dylan success in Programming Contest (2005-09-28 23:08:45)</STRONG></dt>
+<DD><P>A team using Gwydion Dylan was presented with 2nd Prize in the annual <a href="http://icfpc.plt-scheme.org/">Programming Contest</a> at the ICFP's <a href="http://www.brics.dk/~danvy/icfp05/">conference</a> in Tallinn, Estonia yesterday.<p>
+
+The judges stated that "Dylan is a fine programming tool for many applications".<p>
+
+Just to make it even sweeter, the team also was presented with the coveted Judges' Prize for the most effective re-use of their first round code in their second round entry.<p>
+
+The judges stated that "The Dylan Hackers an extremely cool bunch of re-hackers."<p>
+
+Dylan has also had <a href="http://www.gwydiondylan.org/contests.phtml">success</a> in several past contests.<p>
+
+<DT><STRONG>Release of Open Dylan 1.0beta1 (2005-09-27 10:56:08)</STRONG></dt>
+<DD><P><p>Open Dylan is an open source implementation of the Dylan programming
+language, plus a large number of assorted libraries.  Most of the
+code had once been developed by a company called Harlequin, for a
+product called DylanWorks in the beginning, and Harlequin Dylan later.
+After Harlequin demised, some of the programmers acquired the rights,
+and kept selling the development environment under the name of
+Functional Developer.  Eventually, to the joy of the Dylan community,
+they decided to release all of their source code under an open source
+license.  What you can download <a href="http://www.opendylan.org/downloads/opendylan/">here</a> is the attempt of a group
+of enthusiasts calling themselves the "Dylan Hackers" (that's us :) ) to bundle
+up this code, and publish it in a form useful for the general public.
+</p>
+<p>
+This is release 1.0beta1, the first public release of Open Dylan.
+Naturally, we expect this release to have bugs.  We're interested in
+getting your feedback, in order to improve this product.
+</p>
+<p>
+Downloads are available for Linux/x86 and Windows.
+</p>
+
+
+<DT><STRONG>New Functional Developer snapshot for Linux/x86 available (2005-03-20 18:46:13)</STRONG></dt>
+<DD><P>A new snapshot of the Functional Developer Dylan compiler for Linux/x86 is <a href="http://www.gwydiondylan.org/downloads/fd-binaries/linux/functional-developer-20050320-x86-linux.tar.gz">available</a> for download. It fixes a problem with stack alignment, so this should finally make threading reliable. An experimental installation of the <a href="http://wiki.opendylan.org/">Dylan Wiki</a>, written using the koala web server, has been running stable for several weeks now, so this version might as well be 2.1alpha4 when packaged neatly.
+
+<DT><STRONG>Installation instructions for Functional Developer Linux snapshot (2005-02-01 09:57:39)</STRONG></dt>
+<DD><P>Step-by-step instructions for setting up the Linux/x86 snapshot of Functional Developer can be found in this <a href="https://www.gwydiondylan.org/pipermail/gd-hackers/2005-January/005400.html">posting</a> to the gd-hackers mailing list.
+
+<DT><STRONG>New Linux shapshot of Functional Developer available (2005-01-24 19:52:24)</STRONG></dt>
+<DD><P>A new shapshot of the x86/Linux port of the Functional Developer Dylan compiler can be found <a href="http://www.gwydiondylan.org/downloads/fd-binaries/linux/functional-developer-20050123-x86-linux.tar.gz">here</a>.  The most notable change is a completely new implementation of the way thread-local storage works. This should eliminate a lot of the threads-related crashes people saw, especially on Fedora Core. Please test on your system, and report results.
+
+<DT><STRONG>New Functional Developer Win32 Snapshot (2004-11-19 05:52:29)</STRONG></dt>
+<DD><P>A new Functional Developer snapshot for the Win32 platform is available in the <a href="http://www.gwydiondylan.org/~housel/fundev-snapshot.html">usual place</a>.
+
+<DT><STRONG>New source and binary RPMs (2004-11-15 10:56:59)</STRONG></dt>
+<DD><P>Thanks to a .spec file rewrite by canllaith, we now have a new and improved <a href="http://www.gwydiondylan.org/downloads/binaries/linux/x86/RPM/gwydion-dylan-2.4.0-2.i386.rpm">RPM</a> for x86 Linux systems, and also a <a href="http://www.gwydiondylan.org/downloads/src/SRPMS/gwydion-dylan-2.4.0-2.src.rpm">source RPM</a>.<p>The new RPMs have updated information about Gwydion and also check at install time for the presence of the Boehm garbage collector and complain if it is not found.<p>Using the source RPM requires an existing installed d2c.  If you do not have d2c already and there is no prebuilt binary for your system then you'll need to do a Mindy bootstrap from the <a href="http://www.gwydiondylan.org/downloads/src/tar/gwydion-dylan-2.4.0.tar.gz">tarball</a> or from the <a href="http://www.gwydiondylan.org/repository.phtml">source code repository</a>.
+
+<DT><STRONG>Another Gwydion Dylan 2.4.0 package (2004-11-04 21:06:26)</STRONG></dt>
+<DD><P>We now have an <a href="http://www.gwydiondylan.org/downloads/binaries/linux/x86/RPM/gwydion-dylan-2.4.0-1.i386.rpm">RPM</a> for Gwydion 2.4.0 for x86 Linux systems.
+
+Keep those packages for your favourite systems rolling in, folks!
+
+
+<DT><STRONG>Gwydion Dylan 2.4.0 packages uploaded (2004-11-03 01:32:13)</STRONG></dt>
+<DD><P>The following builds of Gwydion Dylan 2.4.0 are now in the binaries download area:<p>
+
+
+<a href="http://www.gwydiondylan.org/downloads/binaries/linux/x86/tar/gwydion-dylan-2.4.0-x86-linux.tar.gz">x86 Linux with glibc 2.3 (all recent distros) tarball</a><br>
+<br>
+
+
+<a href="http://www.gwydiondylan.org/downloads/binaries/MacOSX/10.3/dmg/gwydion-dylan-osx-panther-2.4.0.dmg">MacOS X Panther installer (includes gc libs)</a><br>
+<a href="http://www.gwydiondylan.org/downloads/binaries/MacOSX/10.3/tar/gwydion-dylan-2.4.0-macosx-panther.tar.bz2">MacOS X Panther tarball (bring your own gc)</a><p>
+
+As usual, the tarballs should be unpacked from / and install into /usr/local.  e.g., for the Linux one: <pre>cat gwydion-dylan-2.4.0-x86-linux.tar.gz | (cd /;sudo tar zxf -)</pre><p>
+
+The OSX version also appears to work fine on the latest Tiger preview.
+
+
+<DT><STRONG>Gwydion Dylan 2.4.0 Released (2004-10-31 17:49:53)</STRONG></dt>
+<DD><P>After more than a year without a software release, we're proud to present version 2.4.0 of Gwydion Dylan. Release 2.4 marks the end of feature development of a version of d2c that
+bootstraps using mindy.  Versions 2.5 and onwards will support other
+means of bootstrap, probably using cross-platform compilation of generated
+C files. We consider 2.4 to be of production stability, even though
+it still lacks certain features. It's basically our "stable" branch now, 2.5 is the current branch for new feature developments.
+
+
+
+<DT><STRONG>Functional Developer snapshots available (2004-10-06 10:02:30)</STRONG></dt>
+<DD><P>If you have asked yourself why this site has been so quiet for the past months, there's an easy and very exciting answer: the Functional Developer project is going Open Source, and we've been busy playing with the code. The official announcement is still not out yet, but we had the complete code, including the compiler and all the libraries, in our CVS for several months now, and managed to make both the Win32 and the Linux port work.<p>
+So, we're very proud to present snapshots of what is going to become Functional Developer 2.1 (or maybe Open Dylan 1.0?), for <a href="http://www.gwydiondylan.org/~housel/fundev-snapshot.html">Win32</a> and <a href="http://www.gwydiondylan.org/~andreas/functional-developer-20041005-x86-linux.tar.gz">Linux/x86</a>. Have fun!
+
+<DT><STRONG>Why Dylan is easier to use than C++ (2004-04-12 13:27:59)</STRONG></dt>
+<DD><P>While we still owe the world a writeup on the DHC 2004, and an announcement of the Open Source release of the Functional Developer Dylan compiler, here's an article by Chris Page titled <a href="http://homepage.mac.com/chrispage/iblog/index.html">Effective Dylan: 50 Specific Ways Dylan is Easier to Use Than C++</a>.
+
+<DT><STRONG>2nd DHC (Precioussssss) (2004-01-29 13:25:56)</STRONG></dt>
+<DD><P>The first week of February should be a mandatory reservation for every
+Dylan geek. From all over the World we gather at Middle Earth to attend
+at the 2nd International Dylan Hacker's Conference in Wellington, New
+Zealand. <a href="http://www.gwydiondylan.org/dhc2004.phtml">Please
+find the conference details
+here.</a>
+
+<DT><STRONG>ftp site reorganized (2003-11-06 05:12:10)</STRONG></dt>
+<DD><P>There has been a reorganization of the <a href="http://www.opendylan.org/downloads/">downloads</a> directory.
+<p>
+Primarily, all the <a href="http://www.opendylan.org/downloads/binaries/">binary packages</a> have been organized by operating system, CPU architecture (if appropriate), ABI version (if appropriate), and packaging method (tar vs RPM etc).  This should make it easier to find what you need without being swamped by packages for systems you don't care about.<p>If you find anything misplaced (and I'm not too confident with some of the older OS X versions) then please let us know on the <a href="https://www.gwydiondylan.org/mailman/listinfo/gd-hackers">gd-hackers</a> mailing list or the IRC channel.
+
+<DT><STRONG>Dylan Snapshots:  Now Apt-Gettable! (2003-10-23 04:45:11)</STRONG></dt>
+<DD><P><p>To satisfy the hunger of the ever-increasing hordes of Dylan programmers, we have started generating daily snapshots of the sources and Debian binaries of the Gwydion Dylan development suite.</p>
+<p>Simply add the following line to your <tt>/etc/apt/sources.list</tt> file and let the fun begin!</p>
+<p><tt>deb http://www.gwydiondylan.org/downloads/DEB snapshot/</tt></p>
+<p><em>Note:  The syntax is important.  You need the trailing / character.</em></p>
+
+
+
+<DT><STRONG>Gwydion Dylan merchandise (2003-09-19 10:58:57)</STRONG></dt>
+<DD><P>To support funding of the Gwydion Dylan project, we've started to sell merchandise on <a href="http://www.cafeshops.com/dylan">CafePress</a>. The first item you can get is a 0.45l coffe mug (that's 15 fl oz for the imperial folks), depicting a class diagram of the central data and code flow structures of the Gwydion Dylan compiler. This is extremely useful for compiler hackers, and nice to look at for the rest.
+
+<DT><STRONG>DylanDownUnder wins Judges Prize at ICFP2003! (2003-09-14 21:36:39)</STRONG></dt>
+<DD><P>As the organizers of this year's <a href="http://icfpcontest.org/">International Contest for Functional Programming</a> failed to publish yet: a team of Dylan hackers won the judges prize with their <a href="http://www.hoult.org/bruce/icfp2003/">entry</a>. Congratulations, guys! 
+
+<DT><STRONG>Gwydion Dylan 2.3.11 Released (2003-09-14 21:25:42)</STRONG></dt>
+<DD><P>Gwydion Dylan version 2.3.11 has formally been released today. Source code, as well as binaries for some platforms, can be found in our <a href="http://www.gwydiondylan.org/downloading.phtml">download</a> section. We have many improvements in platform support, including workarounds for the worst bugs in gcc 3.x.
+
+
+<DT><STRONG>Stop software patents in Europe before it's too late (2003-08-27 15:50:16)</STRONG></dt>
+<DD><P>Software patents threaten all free software projects, including ours. It's worrysome that the EU tries to follow the US lead in patentability of software. The European Parliament will vote on the issue on September 1st. Help saving free software, and write to your MEP. <a href="http://swpat.ffii.org/">FFII</a> has all the information on the issue.
+
+<DT><STRONG>Writeup on ICFP 2003 entry available (2003-08-26 23:40:50)</STRONG></dt>
+<DD><P>As every year, a Dylan team has participated in the <a href="http://icfpcontest.org/">International Contest for Functional Programming</a>. The writeup of this and the last years is available <a href="http://www.opendylan.org/contests.phtml">here</a>.
+
+
+<DT><STRONG>Major floating point updates (2003-06-03 08:49:59)</STRONG></dt>
+<DD><P><p>Peter Housel vastly improved Gwydion's floating point handling. There are now primitives to handle floating point numbers, borrowed from the CL specification. Also, we now have precise floating point reading and writing, i.e., if you write a float and then read it back, you will end up with exactly the same float again.<p>
+You can find details in his <a href="https://www.gwydiondylan.org/pipermail/gd-hackers/2003-May/003861.html">message</a> to the gd-hackers mailing list.
+
+<DT><STRONG>Dylan at the Chaos Communication Camp (2003-04-24 22:50:51)</STRONG></dt>
+<DD><P>There will be a compiler writers special interest group on the <a href="http://www.ccc.de/camp">Chaos Communication Camp</a> this summer. Some of us Dylan Hackers will be there.
+
+<DT><STRONG>Gwydion Dylan 2.3.10 released (2003-04-10 09:05:49)</STRONG></dt>
+<DD><P>The Gwydion Dylan Hackers are proud to release version 2.3.10 of Gwydion Dylan. The source tarball, and binaries for Linux/x86 and Solaris/Sparc are already on the <a href="http://www.opendylan.org/downloading.phtml">FTP servers</a>, more precompiled binary packages (most notably MacOS X and Cygwin) will be available later.
+
+
+<DT><STRONG>Build with gcc v3.2.2 enabled (2003-03-02 00:21:17)</STRONG></dt>
+<DD><P>A long standing problem using d2c with
+<a HREF="http://gcc.gnu.org/gcc-3.2/">gcc 3.2.2</a>
+seems to be resolved. Not unsurprisingly the bug
+is in gcc. Please check out our latest CVS version for
+an included workaround if you intend to compile the
+generated C code using this compiler release.
+
+<DT><STRONG>Functional Developer Linux Alpha (2003-01-30 12:29:18)</STRONG></dt>
+<DD><P>Functional Developer, the commercial Dylan compiler, is now going into the third round of Alpha testing. You can find out more about this at <a href="http://www.functional-objects.com/">Functional Objects</a>. A big thanks to the Fun-O folks for releasing most of their libraries under a free license, so we can re-use them for Gwydion.
+
+<DT><STRONG>IRC network renamed (2003-01-30 12:21:34)</STRONG></dt>
+<DD><P>The IRC network hosting the <pre>#dylan</pre> channel is now known as <a href="http://www.freenode.net/">freenode</a>. You're pretty likely to find us there, in case you have questions, want to help, or generally socialize.
+
+
+<DT><STRONG>MacOS X Installer for Gwydion Dylan 2.3.9 (2002-10-29 19:04:47)</STRONG></dt>
+<DD><P>For people who value convenience when installing applications on MacOS X we now provice an <a href="ftp://ftp.gwydiondylan.org/pub/gd/bin/gwydion-dylan-2.3.9-ppc-jaguar.dmg">installer</a>. Gwydion Dylan on your Mac is only three clicks away!
+
+<DT><STRONG>Gwydion Dylan 2.3.9 released (2002-10-17 18:25:02)</STRONG></dt>
+<DD><P>We're proud to release version 2.3.9 of Gwydion Dylan. This is probably the last version before a 2.4 stable release, and we have made great progress towards a stable, complete, and bug-free version. Source tarball is available now from <a href="ftp://ftp.gwydiondylan.org/pub/gd/src/gwydion-dylan-2.3.9.tar.gz">here</a>. Binary versions for a lot of platforms will follow soon.
+
+<DT><STRONG>New server going online (2002-09-21 18:29:15)</STRONG></dt>
+<DD><P><p>We have moved the different services, like WWW, Mail, FTP etc. to a new dedicated server. This means improved service for you: mailing list archives work again, spam on the lists is reduced, web pages and documentation updated more often.</p>
+
+<p>Now back to work on Gwydion Dylan 2.3.9, to be released soon :).</p>
+
+<DT><STRONG>Dylan Language WikiWikiWeb Now Online (2002-08-08 15:49:51)</STRONG></dt>
+<DD><P>The Dylan Language WikiWikiWeb, <a href="http://monday.sourceforge.net/wiki">http://monday.sourceforge.net/wiki/</a>, is
+now online.  Check it out, and help fill it with useful content.
+
+<DT><STRONG>DHC is over, Dylan interpreter written (2002-08-04 22:55:14)</STRONG></dt>
+<DD><P>The first Dylan Hackers Conference is over.  We hacked an interpreter for our low-level intermediate code, giving us a Dylan interpreter suitable for procedural macros and an interactive compiler.  See <a href="http://www.opendylan.org/dhc-2002.phtml">this mail</a> for more.
+
+<DT><STRONG>Dylan Hackers Conference (2002-07-08 20:47:29)</STRONG></dt>
+<DD><P>We'll hold our first conference at the end of the month in Berlin. See <a href="http://www.opendylan.org/dhc.phtml">here</a> for details. Drop by, if you think you can contribute!
+
+<DT><STRONG>Each-subclass slots (2002-04-18 01:21:16)</STRONG></dt>
+<DD><P>The latest CVS version of Gwydion Dylan closes one of the last big gaps in language compliance. It provides slots that are allocated at each-subclass level, i.e. sharing is accomplished between all instances of a particular class. This is best exemplified by saying that a Chevy and a Ferrari are both cars, but they have different top speeds, and each Chevy reaches the same top speed, just like the Ferraris. A bit oversimplified, but you get the idea :-)
+The <A HREF="http://www.opendylan.org/books/drm/drm_42.html#MARKER-9-629">Dylan Reference Manual</A> describes the whole topic a bit more precisely.
+</P>
+
+<P>
+The most widespread introductory text ("Dylan Programming" from Feinberg et al.) also puts each-subclass slots to good use. Finally Gwydion Dylan is able to compile the examples in that fine book.
+
+<DT><STRONG>Gwydion Dylan 2.3.8 released (2002-03-05 15:46:23)</STRONG></dt>
+<DD><P>We're still not where we want to be for a stable release, but 2.3.8 is arguably the version with the least bugs and most features ever, so we recommend it for everybody who's using Gwydion Dylan. For a detailed list of new features and fixed bugs please see the ChangeLog and the news file, as a highlight I should mention a DUIM port based on GTK (DUIM is the Dylan GUI library).
+
+<DT><STRONG>Dylan Hackers score 2nd in Programming Contest (2001-09-07 16:13:24)</STRONG></dt>
+<DD><P>The Dylan Hackers, a team consisting of some of the Gwydion Dylan maintainers, won the second prize at the annual <a href="http://cristal.inria.fr/ICFP2001/prog-contest">ICFP Programming Contest</a>. A summary of our efforts is <a href="http://www.hoult.org/~bruce/dylan-hackers.html">here</a>.
+
+<DT><STRONG>Release 2.3.5 available (2001-05-26 22:33:02)</STRONG></dt>
+<DD><P>Version 2.3.5 of Gwydion Dylan has been released. The compiler now generates faster and smaller code, supports more of the standard, and runs on more platforms. That's a bunch of good reasons to upgrade :).
+
+<DT><STRONG>class slots work (2001-02-09 04:12:32)</STRONG></dt>
+<DD><P>The latest development version of Gwydion Dylan now supports class slots. You can get it directly from the CVS, or use the next daily snapshot.<p>
+Also, work on c-ffi is progressing. We hope to get it out for the next release.
+
+<DT><STRONG>Gwydion Dylan for MacOS X (2000-12-20 15:45:54)</STRONG></dt>
+<DD><P>Gwydion Dylan 2.3.4 is available now on MacOS X as well. See Rob Myers' page <a href="http://www.robmyers.org/dylan">here</a> for some screenshots and sample applications.
+
+<DT><STRONG>Gwydion Dylan 2.3.4 released (2000-11-30 17:42:34)</STRONG></dt>
+<DD><P>The latest version of Gwydion Dylan, release 2.3.4, is available for <a href="http://www.opendylan.org/downloading.phtml">download</a>.
+
+<DT><STRONG>Browser support added to CodeWarrior plugin (2000-09-27 15:41:52)</STRONG></dt>
+<DD><P><DD><P>The second beta version of the d2c compiler for the CodeWarrior IDE has been released by Gabor Greif. 
+<a href="ftp://ftp.gwydiondylan.org/pub/gd/MacOS/d2cPlugin2.3.3b2.sit.hqx">Gwydion Dylan PPC</a> implements the current (v2.3.4pre) codebase of d2c and now supports the symbol browser. 
+It is carbonized and has been tested on MacOS X beta. The distribution now contains the needed support files and example applications. One highlight is "Dylan Hacker", a raytracer, our contribution to the ICFP 2000 contest. 
+If you have a Power Macintosh (with at least 64 MB RAM) and CodeWarrior Pro 6, you are invited to try it out.</P>
+
+<DT><STRONG>Win32 binary available (2000-07-29 18:39:26)</STRONG></dt>
+<DD><P>Douglas Auclair has ported the latest release of Gwydion Dylan to Win32 (cygwin, to be more precise). You can get the binary <a href="ftp://berlin.ccc.de/pub/gd/bin/gwydion-dylan-2.3.3-x86-win32.zip">here</a>. The source patches will be part of the next release (hopefully).
+
+<DT><STRONG>Dylan article on Byte (2000-06-07 03:14:13)</STRONG></dt>
+<DD><P>An <a href="http://www.byte.com/column/BYT20000601S0003">article</a> about Dylan appeared on the Byte website.
+
+<DT><STRONG>New RPMs for 2.3.3 available (2000-05-17 16:26:23)</STRONG></dt>
+<DD><P>The RPMs for version 2.3.3 were broken. New ones are available on the mirrors. 
+
+<DT><STRONG>Beta CW plugin (2000-05-17 02:32:55)</STRONG></dt>
+<DD><P><DD><P>Gabor Greif has released the first feature complete version of the d2c compiler for the CodeWarrior IDE. <a href="ftp://berlin.ccc.de/pub/gd/MacOS/d2cPlugin2.3.3b1.sit.hqx">Gwydion Dylan PPC</a> implements the current (v2.3.3) release of d2c and is rather nicely integrated in its environment. If you have a Power Macintosh (with >96 MB RAM) and CodeWarrior Pro 5, you are invited to try it out.</P>
+
+<DT><STRONG>Dylan OpenGL bindings (2000-05-13 00:35:13)</STRONG></dt>
+<DD><P>Jeff Dubrule's <a href="ftp://ftp.gwydiondylan.org/pub/gd/contributions/gdgl-0.1.tar.gz">OpenGL bindings</a> for Gwydion Dylan have been modified by Andreas Bogk to run with the latest version of <a href="http://utah-glx.sourceforge.net/">utah-glx</a>. This means hardware-accelerated 3D graphics with Dylan! This is also interesting as an example for other people writing Dylan-to-C interfaces, especially those involving function pointers.
+
+<DT><STRONG>MacOS build and sample application (2000-04-25 01:24:40)</STRONG></dt>
+<DD><P>Much is happening on the MacOS front of Gwydion Dylan. A new build of d2c 2.3.3 for MacOS is <a href="ftp://ftp.gwyydiondylan.org/pub/gd/MacOS/mac-d2c.2.3.3r2.sit.hqx">available</a>, as well as a <a href="ftp://ftp.gwyydiondylan.org/pub/gd/contributions/HelloCarbonApp.sit.hqx">sample application</a> for the Carbon API. 
+
+
+<DT><STRONG>Gwydion Dylan 2.3.3 released (2000-04-13 00:28:00)</STRONG></dt>
+<DD><P>After taking a look at the CVS logs I noticed that it was about time to release a new <a href="http://www.opendylan.org/release-2.3.3.phtml">version</a>. You can get binaries and source code at our <a href="http://www.opendylan.org/downloading.phtml">mirror</a> sites.
+
+<DT><STRONG>IRC channel on openprojects (2000-04-01 16:50:05)</STRONG></dt>
+<DD><P>For users and developers of Gwydion Dylan, there's an IRC channel named <pre>#dylan</pre> on the <a href="http://openprojects.nu/services/irc.html">openprojects IRC network</a>. You can visit us there for troubleshooting and socialization.
+
+<DT><STRONG>d2c for MacOS (2000-01-22 18:29:41)</STRONG></dt>
+<DD><P>Rob Myers finally finished his port of d2c, the Dylan compiler that's part of Gwydion, to MacOS. Great work! You can get it <a href="ftp://ftp.gwydiondylan.org/pub/gd/MacOS">here</a>, or on any of the mirror sites, once these are updated.
+
+<DT><STRONG>Functional Developer Beta 3 released (2000-01-17 19:51:32)</STRONG></dt>
+<DD><P>Beta version 3 of Functional Developer, the software formerly known as Harlequin Dylan, aka the commercial implementation of Dylan, has been released by <a href="http://www.fun-o.com/">Functional Objects</a>. It's still Win32 only, but it has a lot of features and a nice GUI.
+
+<DT><STRONG>Lazy Evaluation for Dylan (2000-01-17 19:25:21)</STRONG></dt>
+<DD><P>Neel Krishnaswami has implemented lazy evaluation as known from ML or Scheme. The fact that it only took him a couple of lines tells alot about the expressive power of Dylan, and the fact that his code breaks the current version of Gwydion Dylan means that we have to do some work ;). You can find his code <a href="ftp://ftp.gwydiondylan.org/pub/gd/contributions/lazy.tgz">here</a> or on any of the other mirror sites.
 
 <DT><STRONG>Posting on Dylan's new approach to OO (13 Jan 2000)</strong></dt> 
 
