@@ -29,7 +29,7 @@ end interface;
 
 define function check-error(errno :: &lt;integer>) => ()
   if (errno &lt; 0)
-    error("POSIX error %d occured in pthreads wrapper", errno);
+    error("POSIX error %d occurred in pthreads wrapper", errno);
   end if;
 end function;
 
