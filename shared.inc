@@ -1,7 +1,5 @@
 <?php
 
-require "db_connect.inc";
-
 function current_version() {
     echo "2.4.0";
 }

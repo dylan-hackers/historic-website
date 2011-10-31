@@ -30,24 +30,7 @@ href="community.phtml">community resources</a>.</p>
 <br>
 <h2>Recent News</h2>
 
-<DL>
-<?php
-
-$db = db_connect();
-
-$query = "select * from news where time >= subdate(now(), interval 1 year) order by time desc";
-$res = mysql_query($query, $db);
-$err = mysql_error();
-if($err) {
-    echo "MySQL error occurred. Please notify <a href=andreas@andreas.org>Andreas</a>.";
-} else {
-    while($row = mysql_fetch_row($res)) {
-        echo "<DT><STRONG>".$row[1]." (".$row[0].")</STRONG></dt>\n";
-        echo "<DD><P>".$row[2]."\n\n";
-   }
-}
-?>
-</DL>
+<p>None at the moment. Some will be coming soon!</p>
 
 <P>[ <A HREF="news.phtml">Older News</A> |
 <A HREF="community.phtml">Mailing List Archives</A> ]</P>
