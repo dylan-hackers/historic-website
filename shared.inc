@@ -19,9 +19,9 @@ function end_progress_table () {
 }
 
 function short_header ($title) {
-    readfile("/var/www/website/header.html");
+    readfile("/srv/old.opendylan.org/htdocs/header.html");
     echo "<TITLE>Dylan: " . $title . "</TITLE><BODY>";
-    readfile("/var/www/website/menu.html");
+    readfile("/srv/old.opendylan.org/htdocs/menu.html");
 }
 
 function standard_header ($title) {
@@ -30,6 +30,6 @@ function standard_header ($title) {
 }
 
 function standard_footer () {
-    readfile("/var/www/website/footer.html");
+    readfile("/srv/old.opendylan.org/htdocs/footer.html");
 }
 ?>
